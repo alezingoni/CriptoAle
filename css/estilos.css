@@ -1,0 +1,21 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.colorNAV {
+  background-color: cadetblue;
+}
+.nav__link {
+  color: blanchedalmond;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.container_index {
+  height: 75vh;
+}
+.container_contacto {
+  height: 36vh;
+}
+footer {
+  padding-top: 2rem;
+}

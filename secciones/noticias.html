@@ -4,131 +4,173 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <!-- CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/estilos.css" />
     <title>Noticias</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="row">
-          <a href="/" class="logo">
-            <img src="../img/logo pagina 1.jpg" alt="logo criptoale" />
+      <nav class="navbar navbar-expand-lg colorNAV">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../img/logo pagina 1.jpg"
+              alt="logo criptoale"
+              width="56"
+              height="50"
+            />
           </a>
-
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="./noticias.html">Noticias</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="./cursos.html">Cursos</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="./recomendaciones.html"
-                  >Recomendado</a
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light text-uppercase" aria-current="page" href="../index.html"
+                  >Inicio</a
                 >
               </li>
-              <li class="nav__item">
-                <a class="nav__link" href="./contacto.html">Contacto</a>
+              <li class="nav-item">
+                <a class="nav-link text-light text-uppercase" href="../secciones/noticias.html">Noticias</a>
               </li>
-            </ul>
-          </nav>
+              <li class="nav-item">
+                <a class="nav-link text-light text-uppercase" href="../secciones/cursos.html">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light text-uppercase" href="../secciones/recomendaciones.html">Recomendado</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light text-uppercase" href="../secciones/contacto.html">Contacto</a>
+              </li>
+              
+              
+            </form>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
     <main>
-      <section id="intro-section">
-        <div class="main__noticias">
-          <h1>Noticias</h1>
-          <h2>
-            Mineros de Bitcoin vendieron todas las monedas conseguidas en mayo
-          </h2>
-          <img
-            src="../img/foto 2.jpg"
-            alt="foto 2 bitcoins sobre nieve"
-            width="500"
-            height="300"
-          />
-          <p>
-            A los mineros de Bitcoin les resulta muy difícil continuar con su
-            actividad, pues el coste de producción ha superado las ganancias. El
-            mercado de criptomonedas entró en una fase bajista hace varios días.
-            Se evidencia una tendencia de todo el mercado con la mayoría de las
-            criptomonedas cayendo a un mínimo de 4 años. El deterioro de las
-            condiciones del mercado también ha afectado negativamente a la
-            rentabilidad de la minería de Bitcoin (BTC). Consecuentemente se ha
-            ido obligando a los mineros a liquidar sus tenencias. Nuevos datos
-            de Arcane research muestran que las empresas públicas que se dedican
-            a la minería de Bitcoin vendieron el 100% de su producción de BTC en
-            mayo. Desafortunadamente, el habitual era entre un 20-40%. En los
-            primeros cuatro meses de 2022, las empresas mineras públicas de BTC
-            vendieron el 30% de su producción minada, que se multiplicó por 3 en
-            mayo y se espera que aumente aún más en junio. Las mineras públicas
-            de BTC sólo representan el 20% del hashrate total de la red. Su
-            comportamiento suele reflejar también el sentir de los mineros
-            privados. Los mineros poseen colectivamente 800,000 BTC, lo que los
-            convierte en una de las mayores ballenas del mercado. De ellos, las
-            mineras públicas poseen 46.000 BTC y su ola de ventas podría empujar
-            el precio aún más a la baja. Bitcoin cayendo bajo máximos de 2017 La
-            condición no ha hecho más que empeorar en junio, con el precio de
-            Bitcoin cayendo por debajo del máximo de 2017 de USD 20,000 y
-            registrando un nuevo mínimo de 4 años de USD 17,783. Los depósitos
-            de los mineros a los exchanges, una métrica de datos que muestra el
-            volumen de BTC enviado por los mineros a los exchanges de
-            criptomonedas, ha alcanzado un nuevo máximo en junio. Esta
-            información ha llegado a un nivel que no se veía desde enero de
-            2021. La relación entre mineros de BTC y los depósitos a los
-            exchanges ha alcanzado un nuevo máximo de 7 meses. La caída del
-            precio del BTC también ha hecho que muchas máquinas de minería no
-            sean rentables. Este acontecimiento obligó a los mineros a abandonar
-            el mercado de las criptomonedas
-          </p>
-
-          <h2>Citibank se asocia con empresa suiza de criptomonedas</h2>
-          <img
-            src="../img/citibank.jpg"
-            alt="imagen citibank"
-            width="500"
-            height="300"
-          />
-          <p>
-            Citibank anuncia que seleccionó a METACO, empresa suiza de
-            criptomonedas, para desarrollar servicios de custodia de activos
-            digitales. Citi ofrece custodia de Bitcoin a sus clientes Citi es un
-            banco líder global que ofrece productos y servicios financieros a
-            nivel mundial y opera en más de 160 países, con activos bajo
-            administración de más de $27 billones, más de 200,000 empleados y
-            ventas anuales de más de $70 mil millones. Este miércoles anunció
-            que se asoció con el proveedor líder de tecnología para
-            instituciones financieras en el ecosistema de activos digitales
-            METACO. Esta asociación relaciona una amplia red de custodia de Citi
-            con la tecnología y las soluciones digitales de METACO. Lo anterior
-            dará como resultado el desarrollo e implementación de servicios y
-            custodia para Bitcoin y otros activos digitales. Además, Citi
-            aprovechará su extensa red global junto con el poder de la
-            plataforma Harmonize, para expandirse de manera segura y efectiva a
-            nuevos mercados a nivel mundial.
-          </p>
-        </div>
+      <section>
+        <div class="container text-center">
+            <h1>Noticias</h1>
+         </div>
+           <div class="container"  
+              <div class="col-sm">
+              <h2>
+                Mineros de Bitcoin vendieron todas las monedas conseguidas en
+                mayo
+              </h2>
+              <img class="img-fluid"
+                src="../img/foto 2.jpg"
+                alt="foto 2 bitcoins sobre nieve"
+                width="500"
+                height="300"
+              />
+              <p class="lead">
+                A los mineros de Bitcoin les resulta muy difícil continuar con
+                su actividad, pues el coste de producción ha superado las
+                ganancias. El mercado de criptomonedas entró en una fase bajista
+                hace varios días. Se evidencia una tendencia de todo el mercado
+                con la mayoría de las criptomonedas cayendo a un mínimo de 4
+                años. El deterioro de las condiciones del mercado también ha
+                afectado negativamente a la rentabilidad de la minería de
+                Bitcoin (BTC). Consecuentemente se ha ido obligando a los
+                mineros a liquidar sus tenencias. Nuevos datos de Arcane
+                research muestran que las empresas públicas que se dedican a la
+                minería de Bitcoin vendieron el 100% de su producción de BTC en
+                mayo. Desafortunadamente, el habitual era entre un 20-40%. En
+                los primeros cuatro meses de 2022, las empresas mineras públicas
+                de BTC vendieron el 30% de su producción minada, que se
+                multiplicó por 3 en mayo y se espera que aumente aún más en
+                junio. Las mineras públicas de BTC sólo representan el 20% del
+                hashrate total de la red. Su comportamiento suele reflejar
+                también el sentir de los mineros privados. Los mineros poseen
+                colectivamente 800,000 BTC, lo que los convierte en una de las
+                mayores ballenas del mercado. De ellos, las mineras públicas
+                poseen 46.000 BTC y su ola de ventas podría empujar el precio
+                aún más a la baja. Bitcoin cayendo bajo máximos de 2017 La
+                condición no ha hecho más que empeorar en junio, con el precio
+                de Bitcoin cayendo por debajo del máximo de 2017 de USD 20,000 y
+                registrando un nuevo mínimo de 4 años de USD 17,783. Los
+                depósitos de los mineros a los exchanges, una métrica de datos
+                que muestra el volumen de BTC enviado por los mineros a los
+                exchanges de criptomonedas, ha alcanzado un nuevo máximo en
+                junio. Esta información ha llegado a un nivel que no se veía
+                desde enero de 2021. La relación entre mineros de BTC y los
+                depósitos a los exchanges ha alcanzado un nuevo máximo de 7
+                meses. La caída del precio del BTC también ha hecho que muchas
+                máquinas de minería no sean rentables. Este acontecimiento
+                obligó a los mineros a abandonar el mercado de las criptomonedas
+              </p>
+              </div>
+            </div>
+            <div class="container"
+              <div class="col-sm">
+              <h2>Citibank se asocia con empresa suiza de criptomonedas</h2>
+              <img class="img-fluid"
+                src="../img/citibank.jpg"
+                alt="imagen citibank"
+                width="500"
+                height="300"
+              />
+              <p class="lead">
+                Citibank anuncia que seleccionó a METACO, empresa suiza de
+                criptomonedas, para desarrollar servicios de custodia de activos
+                digitales. Citi ofrece custodia de Bitcoin a sus clientes Citi
+                es un banco líder global que ofrece productos y servicios
+                financieros a nivel mundial y opera en más de 160 países, con
+                activos bajo administración de más de $27 billones, más de
+                200,000 empleados y ventas anuales de más de $70 mil millones.
+                Este miércoles anunció que se asoció con el proveedor líder de
+                tecnología para instituciones financieras en el ecosistema de
+                activos digitales METACO. Esta asociación relaciona una amplia
+                red de custodia de Citi con la tecnología y las soluciones
+                digitales de METACO. Lo anterior dará como resultado el
+                desarrollo e implementación de servicios y custodia para Bitcoin
+                y otros activos digitales. Además, Citi aprovechará su extensa
+                red global junto con el poder de la plataforma Harmonize, para
+                expandirse de manera segura y efectiva a nuevos mercados a nivel
+                mundial.
+              </p>
+              </div>
+            </div>
+          
       </section>
     </main>
     <footer>
-      <div class="footer__design">
-        <h3>
-          Contacto mail:criptoale@gmail.com <br />
+      <div class="container-fluid bg-light text-center p-3">
+        <p>&copy; Todos los derechos reservados | Contacto mail:criptoale@gmail.com 
+           <br />
           Siguenos en nuestras redes
-        </h3>
+        </p>
         <div class="footer__img">
-          <img src="../img/icono instagram.png" alt="icono instagram" />
+          <img src="../img/icono instagram.png" alt="icono instagram" width="60px" />
 
-          <img src="../img/icono twitter.png" alt="icono twitter" />
+          <img src="../img/icono twitter.png" alt="icono twitter"  width="60px" />
 
-          <img src="../img/icono youtube.png" alt="icono youtube" />
+          <img src="../img/icono youtube.png" alt="icono youtube"  width="60px" />
         </div>
       </div>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
